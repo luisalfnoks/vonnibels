@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página para la tienda online de Vonnibels. Una marca de accesorios personalizables 
+    hechos a mano con porcelana fría a la medida de sus clientes.">
+    <meta name="keywords" content="accesorios, porcelana, manualidades, tienda online, aesthetic, accesorios personalizables, anime, decoración">
+    <title>Vonnibels</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--Link para enlazar la fuente con Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>    
+    <header>
+        <!--Barra de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+            <!--logo-->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" height="90" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!--No se que colocar en el data-target-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Menu de navegación superior-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Página principal<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Colecciones
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="aesthetic.htm">Aesthetic</a>
+                            <a class="dropdown-item" href="kawaii.htm">Kawaii</a>
+                            <a class="dropdown-item" href="gaming.htm">Paws</a>
+                            <a class="dropdown-item" href="foot.htm">Food</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactanos/htm">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.htm">Nosotros</a>
+                    </li>
+                </ul>
+                <!--Buscador en el website - NO CONFIGURADO-->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="¿Buscabas algo?" aria-label="Search">
+                    <button class="btn nav__btn-custom" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!--Acá comienza el contenido del website-->
+    <section>
+        <!--Banner de bienvenida al website-->
+        <div class="container-fluid img-fluid main__banner--fix">
+            <div class="row">
+                <div class="col-sm img-fluid main__banner--fix">    
+                    <img src="img/main-banner.gif" alt="Vonnibels" class="img-fluid">
+                    <div class="container-fluid main__banner__text--bg">
+                        <span class="main__banner--text">
+                            <p>Diferenciate con detalles<br> que formen parte de ti</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Sección para los últimos modelos en venta-->
+        <div class="container banner__padding banner__size">
+            <div class="row align-items-center justify-content-center">
+                <h1 class="title__position display-3">¡Últimos Modelos!</h1>
+            </div>    
+            <div class="row align-items-center justify-content-center">
+                <div class="col-sm">
+                    <div class="row align-items-center justify-content-center last__model--design"> <!--Imagen del modelo-->
+                        <img src="img/gato.jpg" alt="gato extraterrestre" class="img-fluid">
+                    </div>
+                    <div class="row align-items-center justify-content-center"> <!--Nombre del artículo y botón a la publicación de Instagram del producto.-->
+                        <p class="title__design">Adorno de escritorio<br>WATO</p>
+                        <br>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <a href="https://www.instagram.com/vonnibels/"><button type="button" class="btn btn-secondary">¡Míralo en Instagram!</button></a>
+                    </div>
+                </div>
+                
+                <div class="col-sm">
+                    <div class="row align-items-center justify-content-center last__model--design"> <!--Imagen del modelo-->
+                        <img src="img/tlecla.jpg" alt="keycap absol" class="img-fluid">
+                    </div>
+                    <div class="row align-items-center justify-content-center"> <!--Nombre del artículo y botón a la publicación de Instagram del producto.-->
+                        <p class="title__design">Keycap para teclado<br>TLECA</p>
+                        <br>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <a href="https://www.instagram.com/vonnibels/"><button type="button" class="btn btn-secondary">¡Míralo en Instagram!</button></a>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="row align-items-center justify-content-center last__model--design"> <!--Imagen del modelo-->
+                        <img src="img/duos.jpg" alt="gato extraterrestre" class="img-fluid">
+                    </div>
+                    <div class="row align-items-center justify-content-center"> <!--Nombre del artículo y botón a la publicación de Instagram del producto.-->
+                        <p class="title__design">Conjunto para mesa<br>W & Y</p>
+                        <br>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <a href="https://www.instagram.com/vonnibels/"><button type="button" class="btn btn-secondary">¡Míralo en Instagram!</button></a>
+                    </div>
+                </div>
+                </div>
+          </div>
+    </section>
+
+    <!--Footer del website-->
+    <footer>
+        <div class="container-fluid footer__design--block">
+            <div  class="row align-items-center justify-content-center footer__design">
+                2020 ─ Vonnibels ─ Todos los derechos reservados
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>
